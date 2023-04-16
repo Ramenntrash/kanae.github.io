@@ -202,6 +202,12 @@ h3 {
     .row {
         flex-direction: column;
     }
+    .spotify h1 {
+        font-size: 29px;
+    }
+    .spotify:hover h1 {
+        font-size: 29px;
+    }
 }
 
 /*-------Member------*/
@@ -261,14 +267,14 @@ h3 {
 /*----Spotify----*/
 
 .spotify {
-    margin: 80px auto;
+    margin: 90px auto;
     width: 60%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(assets/spotifybg.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    padding: 80px 0;
+    padding: 90px 0;
 
 }
 
@@ -277,10 +283,36 @@ h3 {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    position: relative;
+}
+
+.music {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
 
 
 .spotify:hover h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.tiktok {
+    margin: 90px auto;
+    width: 60%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(assets/blackclover.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 90px 0;
+
+}
+
+.tiktok:hover h1 {
     font-size: 36px;
     font-weight: 600;
     color: rgb(0, 0, 0);
